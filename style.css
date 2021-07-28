@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(255, 255, 255, 0.377);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.frist-box{
+    background-color: hsl(31, 77%, 52%);
+    width: 33.333%;
+}
+.second-box{
+    background-color: hsl(184, 100%, 22%);
+    width: 33.333%;
+}
+.thrid-box{
+    background-color: hsl(179, 100%, 13%);
+    width: 33.333%;
+}
+.box{
+    display: flex;
+    width: 1000px;
+    max-width: 1000px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.icon{
+    margin-left: 50px;
+    margin-top: 40px;
+}
+.head-text{
+    color: white;
+    font-family: 'Big Shoulders Display', cursive;
+    margin-top: 50px;
+    margin-left: 45px;
+    margin-bottom: 30px;
+    font-size: 35px;
+}
+.text{
+    color: rgba(255, 255, 255, 0.719);
+    width: 70%;
+    margin-left: 45px;
+    margin-bottom: 70px;
+    font-size: 16px;
+    line-height: 28px;
+    font-family: 'Lexend', sans-serif;
+}
+.submit-button{
+    padding: 15px;
+    border-radius: 25px;
+    border: none;
+    margin-left: 45px;
+    margin-bottom: 40px;
+    width: 150px;
+}
+.text-button-frist{
+    color: hsl(31, 77%, 52%);
+    font-size: 15px;
+    font-weight: 600;
+}
+.text-button-second{
+    color: hsl(184, 100%, 22%);
+    font-size: 15px;
+    font-weight: 600;
+}
+.text-button-thrid{
+    color: hsl(179, 100%, 13%);
+    font-size: 15px;
+    font-weight: 600;
+}
+@media(min-width: 567px){
+    .box{
+        max-width: 540px;
+    }
+}
+@media(min-width: 768px){
+    .box{
+        max-width: 720px;
+    }
+}
+@media(min-width: 992px){
+    .box{
+        max-width: 960px;
+    }
+}
+@media (max-width: 1000px){
+    .box{
+        width: 400px;
+        max-width: 400px;
+        border-radius: 20px;
+        overflow: hidden;
+        flex-direction: column;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .frist-box{
+        background-color: hsl(31, 77%, 52%);
+        width: 100%;
+    }
+    .second-box{
+        background-color: hsl(184, 100%, 22%);
+        width: 100%;
+    }
+    .thrid-box{
+        background-color: hsl(179, 100%, 13%);
+        width: 100%;
+    }
+    body{
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+}
