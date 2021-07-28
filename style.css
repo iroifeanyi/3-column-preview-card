@@ -13,14 +13,17 @@ body{
 .frist-box{
     background-color: hsl(31, 77%, 52%);
     width: 33.333%;
+    padding: 40px;
 }
 .second-box{
     background-color: hsl(184, 100%, 22%);
     width: 33.333%;
+    padding: 40px;
 }
 .thrid-box{
     background-color: hsl(179, 100%, 13%);
     width: 33.333%;
+    padding: 40px;
 }
 .box{
     display: flex;
@@ -29,22 +32,17 @@ body{
     border-radius: 20px;
     overflow: hidden;
 }
-.icon{
-    margin-left: 50px;
-    margin-top: 40px;
-}
+
 .head-text{
     color: white;
     font-family: 'Big Shoulders Display', cursive;
     margin-top: 50px;
-    margin-left: 45px;
     margin-bottom: 30px;
     font-size: 35px;
 }
 .text{
     color: rgba(255, 255, 255, 0.719);
     width: 70%;
-    margin-left: 45px;
     margin-bottom: 70px;
     font-size: 16px;
     line-height: 28px;
@@ -54,8 +52,6 @@ body{
     padding: 15px;
     border-radius: 25px;
     border: none;
-    margin-left: 45px;
-    margin-bottom: 40px;
     width: 150px;
 }
 .text-button-frist{
